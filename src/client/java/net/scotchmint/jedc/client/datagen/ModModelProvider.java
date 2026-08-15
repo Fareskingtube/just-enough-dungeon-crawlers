@@ -17,6 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DUNGEON_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASCENDER_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KEY_DOOR);
     }
 
     @Override

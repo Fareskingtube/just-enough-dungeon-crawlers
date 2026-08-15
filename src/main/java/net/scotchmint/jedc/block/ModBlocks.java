@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.scotchmint.jedc.JustEnoughDungeonCrawlers;
 import net.scotchmint.jedc.block.custom.AscenderBlock;
+import net.scotchmint.jedc.block.custom.KeyDoorBlock;
 
 public class ModBlocks {
     public static final Block DUNGEON_WALL = registerBlock("dungeon_wall", new Block(AbstractBlock.Settings.create()
@@ -17,6 +18,10 @@ public class ModBlocks {
             .strength(-1.0F, 3600000.0F)));
 
     public static final Block ASCENDER_BLOCK = registerBlock("ascender_block", new AscenderBlock(AbstractBlock.Settings.create()
+            .pistonBehavior(PistonBehavior.IGNORE)
+            .strength(-1.0F, 3600000.0F)));
+
+    public static final Block KEY_DOOR = registerBlock("key_door", new KeyDoorBlock(AbstractBlock.Settings.create()
             .pistonBehavior(PistonBehavior.IGNORE)
             .strength(-1.0F, 3600000.0F)));
 
