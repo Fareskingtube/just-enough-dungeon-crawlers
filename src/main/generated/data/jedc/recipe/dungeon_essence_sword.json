@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "jedc:dungeon_essence"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " E ",
+    " E ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jedc:dungeon_essence_sword"
+  }
+}

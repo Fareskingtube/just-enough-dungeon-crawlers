@@ -23,5 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.DIMENSIONAL_KEY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUNGEON_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUNGEON_ESSENCE_SWORD, Models.GENERATED);
     }
 }
