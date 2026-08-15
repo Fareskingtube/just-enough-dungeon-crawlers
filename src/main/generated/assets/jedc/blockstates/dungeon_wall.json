@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "jedc:block/dungeon_wall"
+    }
+  }
+}

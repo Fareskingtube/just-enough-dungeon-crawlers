@@ -17,6 +17,7 @@ import net.minecraft.world.World;
 import net.scotchmint.jedc.JustEnoughDungeonCrawlers;
 import net.scotchmint.jedc.block.entity.custom.AscenderBlockEntity;
 import net.scotchmint.jedc.dimension.DimensionalManager;
+import net.scotchmint.jedc.items.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 public class AscenderBlock extends BlockWithEntity {
@@ -28,11 +29,15 @@ public class AscenderBlock extends BlockWithEntity {
 
     @Override
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        if (stack.getItem() == ModItems.DIMENSIONAL_KEY) {
+
         if (world != null && !world.isClient() && world.getServer() != null) {
             JustEnoughDungeonCrawlers.LOGGER.info("test");
             RegistryKey<World> DimKey = DimensionalManager.getOrCreateVoidTier(world.getServer(), (ServerPlayerEntity) player, 1);
         }
         return ItemActionResult.SUCCESS;
+        }
+        return  ItemActionResult.FAIL;
     }
 
     @Override

@@ -1,0 +1,8 @@
+// 1.21.1	2026-08-15T15:44:52.8853095	Just Enough Dungeon Crawlers/Model Definitions
+5343428f24a5fb889b209c3165dc363dea3ccf7b assets\jedc\models\block\dungeon_wall.json
+85d7f04970fd9dba30ce746a55d4086dbb58e8f1 assets\jedc\models\item\dungeon_wall.json
+d1312a96de88b7c1ddb87d888115da655b43fa18 assets\jedc\models\item\dimensional_key.json
+d56e6b189c4b5dcfff936f49a4c3b825f2d2c853 assets\jedc\blockstates\ascender_block.json
+846a438f9ffcb55c095a6b1fff95fa3a9f0efdd0 assets\jedc\models\block\ascender_block.json
+289ea50a89460ec924b8b632d1da1acce81d6aff assets\jedc\blockstates\dungeon_wall.json
+4f8614f6bc7394b095f7dbfe14b3e3f3a3a0fbcf assets\jedc\models\item\ascender_block.json
