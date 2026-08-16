@@ -47,6 +47,9 @@ dependencies {
 	modApi("com.github.iPortalTeam:DimLib:${dimlib_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+
+	// WorldEdit for Fabric
+	modLocalRuntime "maven.modrinth:worldedit:${project.worldedit_version}"
 }
 
 processResources {

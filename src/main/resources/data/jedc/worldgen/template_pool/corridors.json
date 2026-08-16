@@ -1,0 +1,15 @@
+{
+  "name": "jedc:corridors",
+  "fallback": "jedc:wall_pool",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jedc:hallway",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
