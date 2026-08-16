@@ -53,8 +53,8 @@ public class DimensionalManager {
         );
         ServerWorld nextWorld = server.getWorld(dimKey);
 
-        player.teleport(nextWorld,  0.5, 0.5, 0.5,
-                Set.of(), player.getYaw(), player.getPitch());
+//        player.teleport(nextWorld,  0.5, 0.5, 0.5,
+//                Set.of(), player.getYaw(), player.getPitch());
 
         return dimKey;
     }

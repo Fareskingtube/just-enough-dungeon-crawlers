@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item DUNGEON_ESSENCE = registerItem("dungeon_essence", new Item(new Item.Settings()
             .fireproof()));
     public static final Item DUNGEON_ESSENCE_SWORD = registerItem("dungeon_essence_sword", new SwordItem(ModToolMaterials.DUNGEON_ESSENCE, new Item.Settings()
-            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DUNGEON_ESSENCE, 3, -2.4F))
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DUNGEON_ESSENCE, 8, -2.4F))
             .fireproof()));
 
     private static Item registerItem(String name, Item item) {

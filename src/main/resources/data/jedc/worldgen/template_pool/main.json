@@ -1,9 +1,18 @@
 {
   "name": "jedc:main",
-  "fallback": "jedc:wall_pool",
+  "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 10,
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jedc:hallway",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "jedc:partways",
@@ -12,19 +21,10 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "jedc:fightroom_1",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "jedc:treasure",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
